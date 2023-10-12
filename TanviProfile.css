@@ -1,0 +1,104 @@
+body, h1, p, ul, ol, li, table, th, td, fieldset {
+    margin: 25px;
+    padding: 0;
+    }
+    body {
+    background-color: #ffe8e8;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    }
+    h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Helvetica', sans-serif;
+    }
+    section {
+    background-color: #e9daff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #18d02d;
+    text-align: center;
+    }
+    img {
+    display: block;
+    margin: 0 auto;
+    }
+    h2 {
+    font-size: 25px;
+    color: #01a50c;
+    margin-top: 15px;
+    }
+    p {
+    margin: 10px 0;
+    font-size: 20px;
+    }
+    p::first-letter {
+    color: #000000;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    audio {
+    width: 100%;
+    margin: 10px 0;
+    }
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    }
+    th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+    ol {
+    list-style-type: none;
+    padding: 0;
+    }
+    ol li {
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    margin-left: 15px;
+    font-size: 20px;
+    }
+    footer {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 0;
+    background-color: #dab8ff;
+    color: #000000;
+    border-radius: 5px;
+    }
+    fieldset{
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    }
+    a:link {
+    color: red;
+    }
+    a:visited {
+    color: rgb(2, 218, 246);
+    }
+    a:hover {
+    color: rgb(99, 243, 27);
+    }
+    a:active {
+    color: blue;
+    }
+    ::selection {
+    color: red;
+    background: yellow;
+    }
+    .center {
+    text-align: center;
+    }
+    h2.center {
+    color: red;
+    }
+    
